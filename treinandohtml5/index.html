@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>CABEÇALHO</header>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <H1>Recursos do HTML 5</H1>
+        <div>
+            <video src="video/cidade.mp4" controls width="320px" height="240px" type="video/mp4"></video>
+        </div>
+        <div>
+            <audio src="audio/music.mp3" controls type="audio/mp3"></audio>
+        </div>
+        <div>
+            <figure>
+                <img src="img/ricefield.jpg" alt="Lindos Campos de Arroz">
+                <figcaption>Lindos Campos de Arroz</figcaption>
+            </figure>
+        </div>
+        <h3>PREENCHA OS DADOS PARA ENVIAR</h3>
+        <div>   
+            <form action="">
+                <label for="">Email</label>
+                <input required placeholder="Digite um email válido" type="email" name="email" autofocus>
+                
+                <label for="">Nome: </label>
+                <input required placeholder="Digite o nome completo" type="text" name="nome">
+                
+                <input type="submit" name="Enviar">
+            </form>
+        </div>
+        <div>
+            <p contenteditable="true">Este é um paragráfo que edita em tempo real</p>
+        </div>
+    </article>
+    <aside>
+        <p>Confira nossos produtos <a href="#">Clicando aqui</a></p>
+    </aside>
+    <details open="open">
+        <sumary>Cachorro</sumary>
+        <p>É um mamifero de 4 patas e tbm doméstico</p>  
+    </details> 
+    <details>
+        <sumary>Gato</sumary>
+        <p>É um mamifero de 4 patas e tbm doméstico</p>  
+    </details> 
+    <form action="">
+        <p>Animais: </p>
+        <input list="animais" name="animal">
+        <datalist id="animais">
+            <option value="Cachorro"></option>
+            <option value="Gato"></option>
+            <option value="Coelho"></option>
+            <option value="Elefante"></option>
+            <option value="Cabra"></option>
+            <option value="Serpente"></option>
+        </datalist> 
+    </form>
+    <p>Barra de Loading: </p>
+    <progress value="65" max="100" style="width: 255px; height: 64px;"></progress>
+    <footer>RODAPÉ</footer>
+</body>
+</html>
